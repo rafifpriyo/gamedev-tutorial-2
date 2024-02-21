@@ -41,6 +41,10 @@ move_down={
  ]
 }
 
+[mono]
+
+project/assembly_name="Tutorial 2"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

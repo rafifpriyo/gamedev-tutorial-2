@@ -1,3 +1,5 @@
+## Answer
+
 Apa saja pesan log yang dicetak pada panel Output?
 
 > Pertama-tama hanya mencetak: Platform initialized
@@ -54,4 +56,12 @@ Observasi
 >
 > Sprite dan CollisionShape juga penting. Mungkin yang perlu diperhatikan adalah bentuk CollisionShapenya, berusaha untuk sama persis dengan sprite. Kan kurang lucu kalo Kita, sebagai user, udh ngeliat kena malah gamenya tidak menyetujui.
 
-Apa yang ditambah pada level 1
+## Apa yang ditambah pada level 1
+
+- Memakai aset GreenShip dan Snow
+- Menambahkan ke kapal untuk bisa bergerak ke kanan dengan mengklik tombol kanan
+  - Menggunakan fitur central impulse (dorongan sesaat)
+- Menambahkan snow platform memanjang yang banyak untuk mempermudah mekanik atas bawah
+- Membuat objective area di kanan dan memanjang untuk mengakomodasi garis finish
+- Menambahkan meteor sebagai obstacle, untuk saat ini hanya menuliskan di output jika menabrak
+- Mengganti scene jika mengenai obstacle pada MainLevel saja. Tidak ditambahkan pada Level 1

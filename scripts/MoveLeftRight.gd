@@ -3,6 +3,7 @@ extends RigidBody2D
 export var speed = 10.0
 
 func _ready():
+	print('Level 1 Started ..!')
 	print('Ship for mission!')
 
 func _on_Player_body_entered(body: Node2D):
